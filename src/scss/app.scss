@@ -32,13 +32,13 @@ html {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .navbar-menu{
     display: none;
   }
 
   .navbar-burger{
-    display: block;
+    visibility: visible;
   }
 }
 
