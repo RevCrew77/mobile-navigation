@@ -28,21 +28,14 @@ html {
   flex-flow: column;
 }
 
-.navbar-menu{
-  visibility: visible;
-}
 
 .navbar-burger{
-  visibility: hidden;
+  display: none;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (min-width: 600px) {
   .navbar-menu{
-    visibility: hidden;
-  }
-
-  .navbar-burger{
-    visibility: visible;
+    display: none;
   }
 }
 
