@@ -28,6 +28,13 @@ html {
   flex-flow: column;
 }
 
+.navbar-menu{
+  display: block;
+}
+
+.navbar-burger{
+  display: none;
+}
 
 @media screen and (max-width: 600px) {
   .navbar-menu{
